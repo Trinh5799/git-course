@@ -1,0 +1,10 @@
+git init: Dùng để khởi tạo 1 kho lưu trữ trong thư mục hiện tại
+git add <file_name>: Dùng để thêm tệp tin vào vùng staging area
+git add .: Dùng để thêm tất cả các tệp tin trong thư mục hiện tại vào vùng staging area
+git commit -message: dùng để lưu trữ các tệp tin ở vùng staging area vào lịch sử commit của kho lưu trữ git
+a. Tạo 3 file: file 1, file 2, file 3
+b. Chạy lệnh git init để khởi tạo 1 kho lưu trữ 3 file trên --> lúc này 3 file đang ở status "Working directory"
+c. Chạy lệnh git commit -m"init project": Vì trước đó chưa có file nào được add lên vùng staging area nên khi chạy lệnh này sẽ không có file nào được commit
+d. Chạy lệnh git add file 1: Lúc này file 1 chuyển trạng thái từ working directory về stagging area
+e. Chạy lệnh git commit -m"add file1": File 1 chuyển từ trạng thái staging area vào lịch sử commit của kho lưu trữ git
+f. Chạy lệnh git add file: Bởi vì không có tệp nào tên "file" nên lúc này không có file nào được add lên vùng staging

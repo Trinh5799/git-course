@@ -1,0 +1,2 @@
+git config user.name “Trinh”
+git config user.email "thuytrinhtqt050799@gmail.com”

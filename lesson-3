@@ -1,0 +1,10 @@
+BÀI TẬP 2
+a. Tạo 3 file: file1, file2, file3
+b. Chạy lệnh git int: Đưa 3 file lên git vào vùng working directory
+c. Chạy lệnh: git commit -m”init project”: không có file nào được commit
+Chạy lệnh: git add file1: file1 được chuyển vào staging area
+Chạy lệnh: git commit -m”add file”: file 1 được chuyển vào trạng thái repository
+Chạy lệnh: git add . Tất cả file được chuyển vào trạng thái staging area
+Chạy lệnh: git restore --staged file2: Chuyển file2  ra khỏi staging area về lại trạng thái ban đâfu
+Chạy lệnh: git commit -m”add all files”: commit các file ngoại trừ file 2 
+Chạy lệnh: git reset HEAD~1: file 1 và file 2 chuyển lại về vùng working directory
